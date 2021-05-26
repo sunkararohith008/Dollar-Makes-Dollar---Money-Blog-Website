@@ -1,1 +1,133 @@
+header {
+	background: #00b300;
+	/*background: #00b300 ;*/
+}
+
+.admin-wrapper {
+	display: flex;
+	height: calc(100% - 66px);
+}
+
+.admin-wrapper .left-sidebar {
+	flex: 2;
+	height: 100%;
+	background: black;
+}
+
+.admin-wrapper .left-sidebar ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	color: aliceblue;
+}
+
+.admin-wrapper .left-sidebar ul li a {
+	padding: 18px;
+	display: block;
+	border-bottom: 1px solid #004044;
+}
+
+.admin-wrapper .left-sidebar ul li a:hover {
+	background: #004044;
+}
+
+.admin-wrapper .admin-content {
+	flex: 8;
+	height: 100%;
+	padding: 40px 100px 100px;
+	overflow-y: scroll;
+}
+.admin-content .page-title {
+	text-align: center;
+	margin-bottom: 1.5rem;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 1.1rem;
+}
+
+th,
+td {
+	padding: 15px;
+	text-align: left;
+	border-bottom: 1px solid #d3d3d3;
+}
+
+.edit {
+	color: green;
+}
+
+.delete {
+	color: red;
+}
+
+.publish {
+	color: blue;
+}
+
+.edit:hover,
+.delete:hover,
+.publish:hover {
+	text-decoration: underline;
+}
+
+form div {
+	margin-bottom: 15px;
+}
+
+/*.btn-admin{
+	    padding: 1em 2.1em 1.1em;
+    border-radius: 3px;
+    margin: 8px 8px 8px 8px;
+    color: #fbdedb;
+    background-color: #fbdedb;
+    display: inline-block;
+    background: #e74c3c;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: .85em;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    position: relative;
+     background-color: orange;
+}
+
+.btn-admin:hover, .btn-admin:focus {
+    opacity: 0.8;
+}
+.btn-admin:active {
+    -webkit-transform: scale(0.80);
+    -moz-transform: scale(0.80);
+    -ms-transform: scale(0.80);
+    -o-transform: scale(0.80);
+    transform: scale(0.80);
+}*/
+
+
+.btn-admin{
+  background-color: 'orange';
+  border: none;
+  color: white;
+  /*padding: 20px;*/
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 0.7rem 1.3rem;
+  line-height: 1.3rem;
+}
+
+
 
